@@ -152,7 +152,7 @@ bool Raytracer::readScene(string const &ifname) try {
 
 void Raytracer::renderToFile(string const &ofname) {
   // TODO: the size may be a settings in your file
-  Image img(10000, 10000);
+  Image img(2000, 2000);
   cout << "Tracing...\n";
   scene.render(img);
   cout << "Writing image to " << ofname << "...\n";

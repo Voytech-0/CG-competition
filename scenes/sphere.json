@@ -5,7 +5,7 @@
     1100
   ],
   "Shadows": false,
-  "MaxRecursionDepth": 50,
+  "MaxRecursionDepth": 30,
   "SuperSamplingFactor": 1,
   "Lights": [
     {
